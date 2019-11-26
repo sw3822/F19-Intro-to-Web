@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/my_grid.css">
     <link rel="stylesheet" href="css/type.css">
+<!--<link rel="stylesheet" type="text/css" href="css/flaticon.css">-->
+
 
 
 </head>
@@ -23,7 +25,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-12" style="height:25px;">
+        <div class="col-12" style="height:5px;">
         </div>
       </div>
 
@@ -32,30 +34,46 @@
 
         <div class="col-2">
           <div class="logo">
-            <img src="img/logo_cc.png" alt="" height="130">
+            <a href="Homepage.html">
+            <img src="img/logo_cc.png" alt="" height=130>
+            </a>
           </div>
         </div>
 
         <div class="col-10">
-          <div class="menu">
-            <h3>about &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inspirations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; contact </h3>
-          </div>
+          <div class="navbar">
+             <a href="Homepage.html">home</a>
+             <a href="#about">about</a>
+             <div class="dropdown">
+               <button class="dropbtn">portfolio
+                 <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content">
+                 <a href="#design">design</a>
+                 <a href="art.html">art</a>
+                 <a href="#photography">photography</a>
+               </div>
+            </div>
+            <a href="#inspirations">inspirations</a>
+            <a href="#contact">contact</a>
+         </div>
         </div>
-
       </div>
 
-      <!--<div class="row">
-        <div class="hero">
+      <div class="row">
+        <div class="col-12" style="height:30px;">
         </div>
-      </div>-->
+      </div>
 
       <div class="row">
-          <div class="col-12" style="background-color:#c7ccc8; height:615px;">
-            <p>
-              Breif Intro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-            </p>
-          </div>
-
+        <div class="col-12" style="height:600px">
+          <div class="hero-image">
+            <div class="hero-text">
+              <h1 style="font-size:50px">hello!</h1><br>
+              <h3>I am Cissie Wang</h3><br>
+              <button>about me</button>
+            </div>
+        </div>
       </div>
 
       <div class="row">
@@ -90,10 +108,11 @@
         </div>
       </div>
 
-<!--mail list-->
+<!--mail-->
+      <div class="container">
       <form action="action_page.php">
         <div class="mail">
-          <h2>Subscribe to Newsletter</h2>
+          <h3>subscribe to newsletter</h3><br>
           <div class="row">
             <div class="col-6">
               <input type="text" placeholder="First Name" name="name" required>
@@ -104,46 +123,43 @@
           </div>
 
           <input type="text" placeholder="Email Eddress" name="mail" required><br>
-          <label>
-            <input type="checkbox" checked="checked" name="subscribe"> Newsletter
-          </label>
-          <div class="container">
-            <input type="submit" value="Subscribe">
-          </div>
         </div>
-
-
       </form>
 
-
       <div class="row">
-           <div class="col-12">
-             <div class="btn">
-               <img src="img/button_1a.png" alt="" height="60">
-               <div class="overlay">
-                 <img src="img.button_1b.png" alt="" height="60">
-               </div>
-             </div>
-           </div>
+        <div class="btn">
+          <img src="img/button_1a.png" alt="btn_1a" height=60>
+          <img src="img/button_1b.png" class="img-top" alt="btn_1b" height=60>
+        </div>
+      </div>
       </div>
 
       <div class="row">
-        <div class="col-12" style="height:100px;">
-        </div>
+        <div class="col-12" style="height:100px;"></div>
       </div>
 
       <div class="row">
         <div class="col-12" style="background-color:#9facb0; height:100px;">
+          <div class="icon">
+              <a href="https://www.youtube.com/channel/UCp-gom68YzFRU_2PxaGfhZg?view_as=subscriber">
+              <img src="img/icon1.png" alt="" height="100">
+              </a>
+              <a href="https://www.instagram.com/cissie_wang/">
+              <img src="img/icon2.png" alt="" height="100">
+              </a>
+              <a href="https://www.pinterest.com/cissiewang/">
+              <img src="img/icon3.png" alt="" height="100">
+              </a>
+          </div>
         </div>
       </div>
 
-      <div class="btn">
 
-      </div>
 
 
 
     </div>
+  </div>
 
 
 </body>
